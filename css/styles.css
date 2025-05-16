@@ -1,0 +1,185 @@
+/*main elements*/ 
+body{
+  background-color: #b6e2db;
+  height: 2700px;
+}
+.mainhead{
+  font-family: "Bungee Shade", times, "times new roman";
+  font-size: 5em;
+  text-align: center;
+  color: #b30059;
+  background-color: #48c8a2;
+  padding: 30px;
+  border: 0px;
+  position: absolute;
+	top:-53px;
+	left: 0px;
+	right: 0px;
+	height: 230px;
+}
+.mehead{
+  font-family: "Bungee Shade", times, "times new roman";
+  font-size: 3em;
+  color: black;
+  text-align: center;
+  position: absolute;
+  left: 35px;
+  top: 275px;
+}
+.personalhead{
+	font-family: "Bungee Shade", times, "times new roman";
+  font-size: 3em;
+  color: black;
+  text-align: center;
+  position: absolute;
+  left: 360px;
+  top: 1000px;
+}
+.professionalhead{
+	font-family: "Bungee Shade", times, "times new roman";
+  font-size: 3em;
+  color: black;
+  text-align: center;
+  position: absolute;
+  left: 310px;
+  top: 1600px;
+}
+.pressxhead{
+	font-family: "Bungee Shade", times, "times new roman";
+  font-size: 2em;
+  color: #b30059;
+  text-align: center;
+  position: absolute;
+  left: 35px;
+  top: 1850px;
+}
+.tigerhead{
+	font-family: "Bungee Shade", times, "times new roman";
+  font-size: 2em;
+  color: #b30059;
+  text-align: center;
+  position: absolute;
+  left: 850px;
+  top: 1850px;
+}
+.rainbowhead{
+	font-family: "Bungee Shade", times, "times new roman";
+  font-size: 2em;
+  color: #b30059;
+  text-align: center;
+  position: absolute;
+  left: 410px;
+  top: 1750px;
+}	
+
+/*photos*/
+.mephoto{
+	position: absolute;
+	top: 400px;
+	left: 35px;
+	width: 380px;
+	height: 495px;
+	border: solid #29896d 5px;
+}
+.flygon{
+	position: absolute;
+	top: 1200px;
+	left:35px;
+	width: 320px;
+	height: 200px;
+	border: solid #29896d 5px;
+}
+.flygon:hover{
+	    transform: scale(1.2);
+}
+.clancy{
+	position: absolute;
+	top: 1200px;
+	left:470px;
+	width: 320px;
+	height: 200px;
+	border: solid #29896d 5px;
+}
+.clancy:hover{
+	    transform: scale(1.2);
+}
+.yoshi{
+	position: absolute;
+	top: 1200px;
+	left:895px;
+	width: 320px;
+	height: 200px;
+	border: solid #29896d 5px;
+}
+.yoshi:hover{
+	    transform: scale(1.2);
+}
+.pressx{
+	position: absolute;
+	left: 35px;
+	top: 1950px;
+	width: 370px;
+	height: 240px;
+	border: solid #29896d 5px;
+}
+.pressx:hover{
+	    transform: scale(1.2);
+}
+.rainbow{
+	position: absolute;
+  left: 505px;
+  top: 1865px;
+  width: 220px;
+  height:405px;
+  border: solid #29896d 5px;
+}
+.rainbow:hover{
+	    transform: scale(1.2);
+}
+.tiger{
+	position: absolute;
+	left: 850px;
+	top: 1950px;
+	width: 370px;
+	height: 240px;
+	border: solid #29896d 5px;
+}
+.tiger:hover{
+	    transform: scale(1.2);
+}
+/*paragraphs*/
+.aboutp{
+	position: absolute;
+	top: 295px;
+	left: 550px;
+	font-family: "Alumni Sans Pinstripe", times, "times new roman";
+	font-size: 3em;
+	width: 400px;
+}
+
+
+/* buttons*/
+.btn1 {
+  background-color: #00b96c;
+    color: white;
+    text-align: center;
+    padding: 15px 32px;
+    border: none;
+    cursor: pointer;
+    font-size: 32px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 5px;
+    transition: background-color 0.3s         ease-in-out, transform 0.2s;
+    cursor: pointer;
+    position: absolute;
+    top: 1500px;
+    left: 540px;
+    font-family: "Alumni Sans Pinstripe", times, "times new roman";
+}
+.btn1:hover {
+    background-color: #1aff9f;
+    color: black;
+    transform: scale(1.2);
+}
